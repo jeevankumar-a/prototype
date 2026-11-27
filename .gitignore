@@ -1,0 +1,42 @@
+# Local credentials; keep the placeholder template.
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Virtual environments and downloaded services.
+.venv*/
+venv/
+.local/
+
+# Python caches, test results, and build output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Runtime logs and databases may contain document content.
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+input_files/*
+!input_files/.gitkeep
+
+# Local editor and operating-system files.
+.vscode/
+.DS_Store
+Thumbs.db
